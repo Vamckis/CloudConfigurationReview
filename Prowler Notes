@@ -1,0 +1,19 @@
+# Requirements for Prowler
+pip install awscli detect-secrets
+sudo apt install jq / brew install jq
+
+# Clone Prowler tool
+git clone https://github.com/toniblyx/prowler
+cd prowler
+
+# Configure aws profile 
+aws configure
+
+# To perform a particular check (i.e, 3.10)
+./prowler -c check310
+
+# To Exclude some checks
+./prowler -E check42,check43
+
+# To Output the results in various formats:
+./prowler -M csv,json,json-asff,html
