@@ -12,6 +12,7 @@ $ git clone https://github.com/aquasecurity/cloudsploit.git
 $ cd cloudsploit
 $ npm install
 $ ./index.js -h
+$ ./index.js --config config.js  
 
 # References:
 https://github.com/aquasecurity/cloudsploit
