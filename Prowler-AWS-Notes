@@ -17,3 +17,6 @@ aws configure
 
 # To Output the results in various formats:
 ./prowler -M csv,json,json-asff,html
+
+# To scan a particular profile
+./prowler -M csv,html -p profile1
