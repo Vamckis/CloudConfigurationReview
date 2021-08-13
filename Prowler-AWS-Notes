@@ -15,8 +15,8 @@ aws configure
 # To Exclude some checks
 ./prowler -E check42,check43
 
-# To Output the results in various formats:
-./prowler -M csv,json,json-asff,html
+# To Output the results in various formats (text (default), mono, html, json, json-asff, junit-xml, csv):
+./prowler -M csv,html
 
 # To scan a particular profile
-./prowler -M csv,html -p profile1
+./prowler -p profile1
