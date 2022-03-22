@@ -1,0 +1,10 @@
+# In Windows
+
+# Install Virtual environment
+py -m venv env
+
+#Activate Virtual Environment
+.\env\Scripts\activate
+
+# leaving Virtaul environment
+deactivate
