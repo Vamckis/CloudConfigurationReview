@@ -1,0 +1,9 @@
+# Install 
+pip3 install azure-cis-scanner
+azscan
+open localhost:5000
+
+# azure access tokens
+az account get-access-token
+az login
+rm ~/.azure/accessTokens.json
