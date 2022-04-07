@@ -20,3 +20,6 @@ aws configure
 
 # To scan a particular profile
 ./prowler -p profile1
+
+Reference:
+https://github.com/prowler-cloud/prowler#requirements-and-installation
