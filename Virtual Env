@@ -8,3 +8,8 @@ py -m venv env
 
 # leaving Virtaul environment
 deactivate
+
+
+# In Mac
+$ virtualenv -p python3 venv
+$ source venv/bin/activate
